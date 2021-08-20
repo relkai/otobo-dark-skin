@@ -43,26 +43,26 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 #EmptyMessageLarge {
    padding: 7px;
-   border: 1px solid #DDD;
+   border: 1px solid #272727;
    min-height: 0px;
 }
 
 .OverviewLarge > li {
     position: relative;
-    border-bottom: 1px solid #ddd;
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #272727;
+    border-left: 1px solid #272727;
+    border-right: 1px solid #272727;
 }
 
 .OverviewLarge > li:first-child {
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #272727;
 }
 
 .OverviewLarge > li ul.InlineActions {
     position: absolute;
     top: -35px;
     right: 0px;
-    background-color: #777;
+    background-color: #141414;
     padding-left: 5px;
     height: 35px;
     cursor: auto;
@@ -88,7 +88,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 }
 
 .OverviewLarge > li ul.InlineActions li a {
-    color: #fff;
+    color: #c8c6c4;
 }
 
 .OverviewLarge > li ul.InlineActions li:last-child a {
@@ -131,7 +131,7 @@ body.TouchDevice .OverviewLarge > li ul.InlineActions li.ResponsiveActionMenu {
     padding-top: 12px;
     position: relative;
     cursor: pointer;
-    border-left: 5px solid #fff;
+    border-left: 5px solid #1f1f1f;
     overflow: hidden;
     padding-bottom: 10px;
 }
@@ -146,19 +146,23 @@ body.TouchDevice .OverviewLarge > li ul.InlineActions li.ResponsiveActionMenu {
 
 .OverviewLarge > li:hover > .Content,
 .OverviewLarge > li:hover {
-    border-left-color: #fef235 !important;
+    border-left-color: #F6A72B !important;
 }
 
 .OverviewLarge > li:last-child {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #272727;
+}
+
+.OverviewLarge > li:nth-child(odd) .Content.ShowInlineActions {
+    background-color: #1f1f1f;
 }
 
 .OverviewLarge > li:nth-child(even) {
-    background-color: #F5F5F5;
+    background-color: #242424;
 }
 
 .OverviewLarge > li:nth-child(even) .Content {
-    border-left-color: #f5f5f5;
+    border-left-color: #242424;
 }
 
 .OverviewLarge div.Checkbox {
@@ -191,7 +195,7 @@ body.TouchDevice .OverviewLarge > li ul.InlineActions li.ResponsiveActionMenu {
     top: 37px;
     width: 25px;
     height: 15px;
-    border: 1px solid #bbb;
+    border: 1px solid #272727;
 }
 
 .RTL .OverviewLarge div.Flag {
@@ -264,7 +268,7 @@ body.TouchDevice .OverviewLarge > li ul.InlineActions li.ResponsiveActionMenu {
 }
 
 .OverviewLarge .Infos table tr.Middle {
-    border-top: 1px dotted #CCC;
+    border-top: 1px dotted #272727;
 }
 
 .OverviewLarge .Infos table tr.Middle td {
@@ -275,7 +279,7 @@ body.TouchDevice .OverviewLarge > li ul.InlineActions li.ResponsiveActionMenu {
     width: 50%;
     padding: 0 0 8px 10px;
     overflow: hidden;
-    border-left: 1px dotted #CCC;
+    border-left: 1px dotted #272727;
     line-height: 16px;
     overflow: hidden;
     white-space: nowrap;
@@ -299,7 +303,7 @@ body.TouchDevice .OverviewLarge > li ul.InlineActions li.ResponsiveActionMenu {
 
 .OverviewLarge .Infos table td label {
     display: block;
-    color: #888;
+    color: #999;
     font-weight: bold;
 }
 
@@ -307,8 +311,8 @@ body.TouchDevice .OverviewLarge > li ul.InlineActions li.ResponsiveActionMenu {
     cursor: default;
     position: relative;
     overflow: hidden;
-    background: #EEEEEE;
-    border-bottom: 1px solid #CCC;
+    background: #1f1f1f;
+    border-bottom: 1px solid #272727;
     min-height: 28px;
 }
 
@@ -323,8 +327,8 @@ body.TouchDevice .OverviewLarge > li ul.InlineActions li.ResponsiveActionMenu {
 
 .OverviewLarge .Preview > ul {
     margin: 0 5px 2px;
-    background-color: #FFF;
-    border: 1px solid #ccc;
+    background-color: #1f1f1f;
+    border: 1px solid #272727;
 }
 
 .OverviewLarge .Preview li {
@@ -335,13 +339,13 @@ body.TouchDevice .OverviewLarge > li ul.InlineActions li.ResponsiveActionMenu {
 .OverviewLarge .Preview h3 {
     margin: 0;
     font-size: 12px;
-    background: #E8E8E8;
-    border: 1px solid #E1E1E1;
+    background: #333;
+    border: 1px solid #242424;
 }
 
 .OverviewLarge .Preview li.Active h3 {
-    background: #e0e0e0;
-    border-color: #D7D7D7;
+    background: #333;
+    border-color: #333;
 }
 
 .RTL .OverviewLarge .Preview li.Active h3 {
@@ -353,25 +357,25 @@ body.TouchDevice .OverviewLarge > li ul.InlineActions li.ResponsiveActionMenu {
     height: 17px;
     padding: 0 4px;
     line-height: 16px;
-    color: #A3A09B;
+    color: #777;
     display: block;
     overflow: hidden;
 }
 
 .OverviewLarge li:hover .Preview h3 a {
-    color: #5E584F;
+    color: #659ac6;
 }
 
 .OverviewLarge .Preview li.Active h3 a {
-    color: #c8c6c4;
+    color: #777;
 }
 
 .OverviewLarge li:hover .Preview li.Active h3 a {
-    color: #0E0E0E;
+    color: #659ac6;
 }
 
 .OverviewLarge .Preview h3 .Subject {
-    color: #0F0F0F;
+    color: #c8c6c4;
 }
 
 .OverviewLarge .Preview h3 .Headline {
@@ -392,7 +396,7 @@ body.TouchDevice .OverviewLarge > li ul.InlineActions li.ResponsiveActionMenu {
 
 .OverviewLarge .Preview li div.HiddenBlock {
     display: none;
-    border-right: 1px solid #E8E8E8;
+    border-right: 1px solid #272727;
     padding-top: 0;
     padding-bottom: 0;
     overflow: auto;
