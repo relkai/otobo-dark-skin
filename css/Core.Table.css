@@ -214,11 +214,11 @@ table tr.MasterAction {
 }
 
 .DataTable tr:nth-child(even) td {
-    background-color: #292929;
+    background-color: #242424;
 }
 
 .DataTable tr:nth-child(even) td.Highlight {
-    background-color: #272727;
+    background-color: #242424;
 }
 
 .DataTable tr td.Highlight {
@@ -413,13 +413,13 @@ thead .headerSortDown a {
 
 .TableSmall td {
     padding: 0 10px;
-    background-color: #272727;
-    border-right: 1px dotted #333;
+    background-color: #242424;
+    border-right: 1px dotted #272727;
 }
 
 .RTL .TableSmall td {
     border-right:none;
-    border-left: 1px dotted #333;
+    border-left: 1px dotted #272727;
 }
 
 .TableSmall td.NonTextContent {
@@ -449,7 +449,7 @@ thead .headerSortDown a {
 }
 
 .RTL .TableSmall tbody tr td:first-child {
-    border-left: 1px dotted #333;
+    border-left: 1px dotted #272727;
 }
 
 .TableSmall tbody tr.Active td:first-child {
