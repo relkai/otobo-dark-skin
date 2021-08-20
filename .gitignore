@@ -1,0 +1,5 @@
+# ignore css cache
+/css-cache
+
+# ignore sftp config
+/.ftpconfig
