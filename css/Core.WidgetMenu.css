@@ -413,8 +413,8 @@ ul.ContextFunctions li:last-child:hover > a {
 }
 
 .LightRow.Bottom {
-    background: #F7F7F7;
-    border-bottom: 1px solid #ccc;
+    background: #1f1f1f;
+    border-bottom: 1px solid #1f1f1f;
 }
 
 .Collapsed .LightRow.Bottom {
