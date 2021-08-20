@@ -1814,9 +1814,9 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 
 /* iFrame Background */
 iframe {
-    border: 1px solid #c4c6c8;
+    border: 1px solid #fff;
     border-radius: 5px;
-    background-color: #c4c6c8 !important;
+    background-color: #fff !important;
 }
 
 }
