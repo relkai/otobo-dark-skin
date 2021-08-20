@@ -139,7 +139,7 @@ body.TouchDevice .OverviewMedium li ul.InlineActions li.ResponsiveActionMenu {
 }
 
 .OverviewMedium li:last-child {
-    border-bottom: 1px solid #202020;
+    border-bottom: 1px solid #272727;
 }
 
 .OverviewMedium li:nth-child(odd) div.Content {
