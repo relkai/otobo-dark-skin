@@ -63,13 +63,13 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
     text-align: center;
     margin-top: 5px;
     vertical-align: middle;
-    background: #ccc;
-    color: #333;
+    background: #333;
+    color: #c8c6c4;
 }
 
 .OverviewZoom .Active a,
 .OverviewZoom .Active a:hover {
-    background: #5D5D5D;
+    background: #c8c6c4;
     color: #1f1f1f;
 }
 
