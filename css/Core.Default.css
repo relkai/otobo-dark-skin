@@ -1071,7 +1071,6 @@ div.UnreadArticles.Ordinary {
 
 tbody tr:hover span.UnreadArticles i {
     color: #F6A72B;
-    text-shadow: none !important;
 }
 
 span.ImportantArticles {
