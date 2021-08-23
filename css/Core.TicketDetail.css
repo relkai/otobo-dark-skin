@@ -729,19 +729,19 @@ body.TouchDevice #ArticleItems .ArticleMailContentHTMLWrapper {
 .UseArticleColors #ArticleItems .system .ArticleMailContent .ArticleBody,
 .UseArticleColors #ArticleItems .system .ArticleMailContent .ArticleHTML,
 .UseArticleColors #ArticleItems .system .ArticleMailContent .ArticleMeta {
-    border: 2px solid #ffef80;
+    border: 2px solid #3ab5e4;
 }
 
 .UseArticleColors .Incoming.system .ArticleMailContentHTMLWrapper:after,
 .UseArticleColors .Incoming.system .ArticleHTML:after,
 .UseArticleColors .Incoming.system .ArticleBody:after {
-    border-left-color: #ffef80;
+    border-left-color: #3ab5e4;
 }
 
 .UseArticleColors .Outgoing.system .ArticleMailContentHTMLWrapper:after,
 .UseArticleColors .Outgoing.system .ArticleHTML:after,
 .UseArticleColors .Outgoing.system .ArticleBody:after {
-    border-right-color: #ffef80;
+    border-right-color: #3ab5e4;
 }
 
 .UseArticleColors #ArticleTable a {
