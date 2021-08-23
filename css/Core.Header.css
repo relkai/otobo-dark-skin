@@ -195,7 +195,7 @@ body.Visible-ScreenXL #ToolBar li.UserAvatar > a.Active {
     display: block;
     padding: 5px 10px;
     white-space: nowrap;
-    background-color: #333;
+    background-color: #141414;
 }
 
 body.Visible-ScreenXL #ToolBar li.UserAvatar div a:hover {
