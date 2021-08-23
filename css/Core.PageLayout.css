@@ -251,7 +251,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
     text-align: center;
     display: block;
     height: 100%;
-    background: #333;
+    background: #272727;
     box-sizing: border-box;
     text-align: center;
     border: 1px solid #555;
@@ -302,7 +302,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 }
 
 .ItemListGrid.WithIcons > li span.Icons i.Icon2 {
-    background: #333;
+    background: #272727;
     border: 1px solid #999;
     border-radius: 20px;
     font-size: 12px;
