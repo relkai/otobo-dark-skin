@@ -624,8 +624,8 @@ body.TouchDevice #ArticleItems .ArticleMailContentHTMLWrapper {
 .UseArticleColors tr:nth-child(even) td {
     transition: background ease 0.3s;
     background: #1f1f1f;
-    border-color: #333;
-    border-bottom: 1px solid #333;
+    border-color: #272727;
+    border-bottom: 1px solid #272727;
 }
 
 .UseArticleColors tr.Active > td,
@@ -633,6 +633,30 @@ body.TouchDevice #ArticleItems .ArticleMailContentHTMLWrapper {
     background-color: #383838 !important;
     border-color: #383838;
     border-right-color: #383838 !important;
+}
+
+.UseArticleColors tr.customer > td {
+    background: #193200 !important;
+    border-bottom-color: #264d00;
+    border-color: #264d00;
+}
+
+.UseArticleColors tr.customer.Active > td,
+.UseArticleColors tr.customer:hover > td {
+    background-color: #2d5900 !important;
+    border-color: #2d5900 !important;
+}
+
+.UseArticleColors tr.agent > td {
+    background: #0d2833 !important;
+    border-bottom-color: #133c4d;
+    border-color: #133c4d;
+}
+
+.UseArticleColors tr.agent.Active > td,
+.UseArticleColors tr.agent:hover > td {
+    background-color: #1a5066 !important;
+    border-color: #1a5066 !important;
 }
 
 .UseArticleColors tr.NotVisibleForCustomer > td {
@@ -644,20 +668,21 @@ body.TouchDevice #ArticleItems .ArticleMailContentHTMLWrapper {
 .UseArticleColors tr.NotVisibleForCustomer.Active > td,
 .UseArticleColors tr.NotVisibleForCustomer:hover > td {
     background-color: #660011 !important;
-    border-color: #660011;
+    border-color: #660011 !important;
 }
 
 .UseArticleColors tr.system > td {
-    background: #18182b !important;
-    border-bottom-color: #1f1f38;
-    border-color: #1f1f38;
+    background: #1f1f1f !important;
+    border-bottom-color: #272727;
+    border-color: #272727;
 }
 
 .UseArticleColors tr.system.Active > td,
 .UseArticleColors tr.system:hover > td {
-    background-color: #272745 !important;
-    border-color: #272745 !important;
+    background-color: #292929 !important;
+    border-color: #292929 !important;
 }
+
 /*
 .UseArticleColors td,
 .UseArticleColors tr:nth-child(even) td {
