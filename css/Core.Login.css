@@ -59,7 +59,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
     padding: 15px 0px;
     position: relative;
     text-align: center;
-    text-shadow: 1px 1px 1px #fff;
+    text-shadow: 1px 1px 1px #000;
     text-transform: uppercase;
     width: 100%;
 }
@@ -86,12 +86,13 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
     background: url(../img/otobo-signet.svg);
     background-size: cover;
     margin: 20px auto 10px auto;
-    opacity: 0.3;
+    transition: all ease 0.4s;
+    opacity: 0.7;
 }
 
 #Footer a:hover {
     text-decoration: none;
-    color: #555;
+    color: #c8c6c4;
 }
 
 #Footer a:hover span {
