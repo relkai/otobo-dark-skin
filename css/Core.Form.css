@@ -20,8 +20,8 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 @media screen,projection,tv,handheld {
 
-/* Dark mode for SortBy select */
-select#SortBy {
+/* Dark mode for select fields */
+select {
     background: #141414;
     color: #c8c6c4;
     border: 1px solid #555;
