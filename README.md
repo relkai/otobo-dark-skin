@@ -1,6 +1,8 @@
 # otobo-dark-skin
 A dark skin for OTOBO
 
+![OTOBO Dark Skin](/screenshot.png?raw=true)
+
 OTOBO is a fork based on the ((OTRS)) Community Edition.
 
 https://otobo.de
