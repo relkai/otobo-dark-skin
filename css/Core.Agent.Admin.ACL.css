@@ -22,8 +22,8 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 @media screen,projection,tv,handheld {
 
 .WidgetSimple fieldset.Separated {
-    background-color: #E9E9E9;
-    border: 1px solid #CCCCCC;
+    background-color: #1f1f1f;
+    border: 1px solid #333;
     margin: 9px 0px;
     padding: 4px;
 }
@@ -34,7 +34,7 @@ a.Copy {
 }
 
 .ACLStructure {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #333;
     padding-bottom: 20px;
 }
 
@@ -56,11 +56,11 @@ fieldset:first-child .ACLFields > h4 {
     font-size: 11px;
     width: 450px;
     padding-bottom: 5px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #333;
 }
 
 .ACLFields > p a {
-    color: #00023c;
+    color: #c8c6c4;
     text-decoration: underline;
 }
 
