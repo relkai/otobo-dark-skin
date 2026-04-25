@@ -154,6 +154,11 @@ ul.Tablelike li.Header + li {
     color: #777;
 }
 
+.WidgetAction:hover i,
+.WidgetAction a:focus i {
+    color: #c8c6c4;
+}
+
 ul.WidgetTooltip li {
     border-bottom-color: #ccc;
 }

@@ -86,6 +86,9 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
     /* Process dialogs */
 
     /* Cluster */
+    .Cluster .WidgetAction.ArticleView {
+        background: unset;
+    }
 
     /* Input Fields */
 

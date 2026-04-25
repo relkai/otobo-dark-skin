@@ -64,6 +64,14 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
  * @subsection  ControlRow Icons
  */
 
+.ControlRow .Icons a:hover {
+    background-color: unset;
+}
+
+.ControlRow .Icons a i:hover {
+    color: #c8c6c4;    
+}
+
 /**
  * @subsection  Attachment Dialog Content
  */
@@ -81,6 +89,10 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
  * @subsection  ArticleBody
  * @note        Styles for article body
  */
+
+.MessageBrowser p {
+    background-color: #333;
+}
 
 .MessageBrowser a.Close:hover {
     color: #c8c6c4;
@@ -158,6 +170,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 .ArticleMailContent .ArticleHTML,
 .ArticleMailContent .ArticleMeta {
     border-color: #eee;
+    background-color: #ccc;
 }
 
 .UseArticleColors #ArticleItems .system .ArticleMailContent iframe,
